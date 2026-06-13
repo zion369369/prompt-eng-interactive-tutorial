@@ -41,6 +41,7 @@ Contains interactive tutorials optimized for OpenAI's GPT models (`gpt-5.5-pro` 
 *   **[Chapter 3: Message Schema & API Roles](./gpt/03_message_schema_roles.ipynb)**: Deep dive into System, User, Assistant roles and Few-Shot prompting.
 *   **[Chapter 4: Structured Output JSON Mode](./gpt/04_structured_outputs_json.ipynb)**: Enforcing JSON output schemas via OpenAI JSON mode.
 *   **[Chapter 5: Prompt Chaining Pipelines](./gpt/05_prompt_chaining.ipynb)**: Chaining completions together.
+*   **[ChatGPT GPT-5 Prompting Guide](./examples/gpt-5/gpt-5_prompting_guide.ipynb)**: Native conversational prompting guide for the ChatGPT web/mobile UI.
 
 ---
 
