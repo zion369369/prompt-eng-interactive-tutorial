@@ -1,58 +1,36 @@
-# Welcome to Anthropic's Prompt Engineering Interactive Tutorial
+# 🚀 Multi-Model Interactive Prompt Engineering Guide
 
-## Course introduction and goals
+Welcome to the diversified interactive tutorial for prompt engineering. This repository contains step-by-step guides, Jupyter notebooks, and exercises to master optimal prompt writing across multiple AI model architectures: **Anthropic Claude**, **Google Gemini**, and **OpenAI GPT**.
 
-This course is intended to provide you with a comprehensive step-by-step understanding of how to engineer optimal prompts within Claude.
+---
 
-**After completing this course, you will be able to**:
-- Master the basic structure of a good prompt 
-- Recognize common failure modes and learn the '80/20' techniques to address them
-- Understand Claude's strengths and weaknesses
-- Build strong prompts from scratch for common use cases
+## 📂 Repository Structure
 
-## Course structure and content
+The tutorials are organized by provider to help you compare prompting frameworks:
 
-This course is structured to allow you many chances to practice writing and troubleshooting prompts yourself. The course is broken up into **9 chapters with accompanying exercises**, as well as an appendix of even more advanced methods. It is intended for you to **work through the course in chapter order**. 
+### 1. 🤖 [Claude (Anthropic)](./claude)
+Contains the original Anthropic interactive prompt engineering courses:
+*   **[Anthropic 1P Direct API](./claude/Anthropic%201P)**: Direct integration notebooks (Chapters 1 to 9 + Appendices).
+*   **[Amazon Bedrock Integration](./claude/AmazonBedrock)**: Notebooks and code configured for running Claude on Amazon Bedrock.
 
-**Each lesson has an "Example Playground" area** at the bottom where you are free to experiment with the examples in the lesson and see for yourself how changing prompts can change Claude's responses. There is also an [answer key](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?usp=sharing).
+### 2. ♊ [Gemini (Google)](./gemini)
+Contains interactive tutorials optimized for Google's Gemini models (Gemini 1.5 Pro/Flash):
+*   **[Gemini Prompt Anatomy & Schemas](./gemini/01_Gemini_Prompt_Structure.ipynb)**: Mastering system instructions, Generation Configs, multi-modal files, and strict JSON schemas.
 
-Note: This tutorial uses our smallest, fastest, and cheapest model, Claude 3 Haiku. Anthropic has [two other models](https://docs.anthropic.com/claude/docs/models-overview), Claude 3 Sonnet and Claude 3 Opus, which are more intelligent than Haiku, with Opus being the most intelligent.
+### 3. 🎯 [GPT-4o (OpenAI)](./gpt)
+Contains interactive tutorials optimized for OpenAI's GPT models (GPT-4o/GPT-4o-mini):
+*   **[GPT-4o Message Schema & Parameters](./gpt/01_GPT_Prompt_Structure.ipynb)**: Organizing System, User, and Assistant message structures, configuring temperatures, and returning valid JSON formats.
 
-*This tutorial also exists on [Google Sheets using Anthropic's Claude for Sheets extension](https://docs.google.com/spreadsheets/d/19jzLgRruG9kjUQNKtCg1ZjdD6l6weA6qRXG5zLIAhC8/edit?usp=sharing). We recommend using that version as it is more user friendly.*
+---
 
-When you are ready to begin, go to `01_Basic Prompt Structure` to proceed.
+## 📈 Learning Goals
+After working through these guides, you will be able to:
+1.  **Understand Model Nuances**: Discern why Claude loves XML tags, how Gemini handles typed JSON schemas, and how GPT processes system instruction blocks.
+2.  **Avoid Hallucinations**: Write defensive prompts that prevent models from inventing false facts.
+3.  **Format Outputs**: Request and receive structured data outputs (Markdown, JSON, XML) reliably.
+4.  **Chaining & Tools**: Learn advanced methods like prompt chaining, few-shot prompting, and tool use parameter designs.
 
-## Table of Contents
+---
 
-Each chapter consists of a lesson and a set of exercises.
-
-### Beginner
-- **Chapter 1:** Basic Prompt Structure
-
-- **Chapter 2:** Being Clear and Direct  
-
-- **Chapter 3:** Assigning Roles
-
-### Intermediate 
-- **Chapter 4:** Separating Data from Instructions
-
-- **Chapter 5:** Formatting Output & Speaking for Claude
-
-- **Chapter 6:** Precognition (Thinking Step by Step)
-
-- **Chapter 7:** Using Examples
-
-### Advanced
-- **Chapter 8:** Avoiding Hallucinations
-
-- **Chapter 9:** Building Complex Prompts (Industry Use Cases)
-  - Complex Prompts from Scratch - Chatbot
-  - Complex Prompts for Legal Services
-  - **Exercise:** Complex Prompts for Financial Services
-  - **Exercise:** Complex Prompts for Coding
-  - Congratulations & Next Steps
-
-- **Appendix:** Beyond Standard Prompting
-  - Chaining Prompts
-  - Tool Use
-  - Search & Retrieval
+## 📄 License
+This project is licensed under the Apache License 2.0 or MIT License (inherited from the original Anthropic upstream).
