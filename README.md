@@ -27,12 +27,20 @@ Contains the original Anthropic interactive prompt engineering courses:
 *   **[Amazon Bedrock Integration](./claude/AmazonBedrock)**: Notebooks and code configured for running Claude on Amazon Bedrock.
 
 ### 2. ♊ [Gemini (Google)](./gemini)
-Contains interactive tutorials optimized for Google's Gemini models (Gemini 1.5 Pro/Flash):
-*   **[Gemini Prompt Anatomy & Schemas](./gemini/01_Gemini_Prompt_Structure.ipynb)**: Mastering system instructions, Generation Configs, multi-modal files, and strict JSON schemas.
+Contains interactive tutorials optimized for Google's Gemini models (`gemini-3.5-flash` / `gemini-3.1-pro`):
+*   **[Chapter 1: The Core Framework](./gemini/01_the_core_framework.ipynb)**: Persona, Task, Context, and Format.
+*   **[Chapter 2: Contextual Expansion (21-Word Rule)](./gemini/02_expanding_context_21_words.ipynb)**: Shorter vs. Longer prompts, 6 quick tips.
+*   **[Chapter 3: System vs. Content Roles](./gemini/03_system_vs_user_roles.ipynb)**: System instructions vs. conversational content rules.
+*   **[Chapter 4: Structured Output JSON](./gemini/04_structured_outputs_json.ipynb)**: Pydantic/TypedDict typing and `response_schema`.
+*   **[Chapter 5: Advanced Chaining & Multimodal](./gemini/05_prompt_chaining_multimodal.ipynb)**: Pipelines and native multimodal processing.
 
-### 3. 🎯 [GPT-4o (OpenAI)](./gpt)
-Contains interactive tutorials optimized for OpenAI's GPT models (GPT-4o/GPT-4o-mini):
-*   **[GPT-4o Message Schema & Parameters](./gpt/01_GPT_Prompt_Structure.ipynb)**: Organizing System, User, and Assistant message structures, configuring temperatures, and returning valid JSON formats.
+### 3. 🎯 [GPT (OpenAI)](./gpt)
+Contains interactive tutorials optimized for OpenAI's GPT models (`gpt-5.5-pro` / `gpt-5.4-mini`):
+*   **[Chapter 1: The Core Framework](./gpt/01_the_core_framework.ipynb)**: Adapting the 4-Part framework to Chat Completions.
+*   **[Chapter 2: Contextual Expansion (21-Word Rule)](./gpt/02_expanding_context_21_words.ipynb)**: Detail expansion and specific constraints.
+*   **[Chapter 3: Message Schema & API Roles](./gpt/03_message_schema_roles.ipynb)**: Deep dive into System, User, Assistant roles and Few-Shot prompting.
+*   **[Chapter 4: Structured Output JSON Mode](./gpt/04_structured_outputs_json.ipynb)**: Enforcing JSON output schemas via OpenAI JSON mode.
+*   **[Chapter 5: Prompt Chaining Pipelines](./gpt/05_prompt_chaining.ipynb)**: Chaining completions together.
 
 ---
 
