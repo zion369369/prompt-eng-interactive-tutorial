@@ -4,6 +4,19 @@ Welcome to the diversified interactive tutorial for prompt engineering. This rep
 
 ---
 
+## 🔧 Recommended Toolkit: Hello Prompting Console
+
+As you practice writing, testing, and debugging prompt templates in these lessons, we recommend installing the **[Hello Prompting Console Toolkit](https://chromewebstore.google.com/detail/Hello%20Prompting:%20Best%20AI%20Prompt%20Optimizer/idfecahooccghgkjohelhjecjeeeapah?hl=en)** (Free Chrome Extension). 
+
+Hello Prompting acts as an AI prompt engineer right inside your browser console:
+*   **Prompt Score™ Live**: Health check feedback on prompt clarity and structure.
+*   **Google 4-Part Framework**: Auto-inject Persona, Task, Context, and Format templates.
+*   **One-Click Super Prompts**: Instantly upgrade generic user inputs into elite, structured instructions.
+
+[![Add to Chrome](https://img.shields.io/badge/Hello_Prompting-Add_to_Chrome_Free-blue?style=for-the-badge&logo=googlechrome)](https://chromWebStore.google.com/detail/Hello%20Prompting:%20Best%20AI%20Prompt%20Optimizer/idfecahooccghgkjohelhjecjeeeapah?hl=en)
+
+---
+
 ## 📂 Repository Structure
 
 The tutorials are organized by provider to help you compare prompting frameworks:
